@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="stylesheet.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>WEB WARRIOR-BATTLE!</title>
+    </head>
+
+    <body>
+        
+        
+        <div id=welcCard> 
+            <h2>Web-Warrior!</h2>
+            <h1>BATTLE!</h1>
+        </div>
+        
+        <div id="ContentEnvelope" style="display: flex;">
+            <div id="settings" >
+                <img class="settingsIcon" ><!--gear-->
+                <!--Sound settings-->
+                    <!--BG music toggle-->
+                    <!--SFX toggle-->
+                    <h3>Settings Test</h3>
+            </div>
+            
+            <div id="ArenaEnvelope">
+                <h2 id="EnemyName"></h2>
+                <img id="EnemySprite">
+            </div>
+        </div>    
+
+        <div id="playerStats" >
+            <img class="statsIcon" ><!--bag icon-->
+            <!--level info-->
+                <!--current EXP-->
+                <!--EXP until next lvl-->
+            <!--currentEquipment-->
+                <!--weapom-->
+                <!--armor-->
+            <h3>Stats Test</h3>
+        </div>
+
+        <div id="battleEnvelop">
+            <!--text to tel te player who's turn it is-->
+            <h3 class="turnTxt">Turn:<h3 class="turnOrder"></h3></h3>
+            <div id="battleInfo" style= "display: flex;">
+                <table id="actionMenu" style="flex: 1;">
+                    <!--text to tell the player who's turn it is-->
+                    <tr>
+                        <td class= "actionTxt">Attack</td>
+                        <td class= "actionTxt">Spell</td>
+                    </tr>
+
+                    <tr>
+                        <td class= "actionTxt">Items</td>
+                        <td class= "actionTxt">Run</td>
+                    </tr>
+                </table>
+                <div id="hpmp" style="flex: 1;">
+                    <div class="HP">
+                        <h2>Health: </h2>
+                        <h2 class="healthData"></h2>
+                    </div>
+                    <div class="MP">
+                        <h2>Mana: </h2>
+                        <h2 class="manaData"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            generateEnemy();
+        </script>
+    </body>
+
+    <footer>
+        <p>Page created by Lucas Foxworthy</p>
+        <p>Made Nov, 2022</p>
+    </footer>
+</html>
