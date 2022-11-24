@@ -1,0 +1,188 @@
+/*================GENERAL STYLES===================================*/
+/*body section*/
+body{
+    /*re-aligns the text inside this section*/
+    text-align: center;
+    /*Changes the background color of this section*/
+    background-color:ghostwhite ;
+    /*have any changes to this section's styles have a transition period*/
+    transition: 1.5s;
+}
+
+/*Page's Footer Section*/
+footer{
+    /*Changes the background color of this section*/
+    background-color: black;
+    /*changes the color of the text inside this image*/
+    color: darkgray;
+    /*increases the boldness of the text in this section*/
+    font-weight: bolder;
+}
+
+/*Styles of all images*/
+img{
+    /*adds top margin to images*/
+    margin-top: 5%;
+    /*Adjusts the Imagased Width*/
+    width:25%;
+    /*auto-adjust the height of images*/
+    height:auto;
+}
+
+/*Styles of all Button*/
+button{
+    /*gives the Button a border*/
+    border: 4px rgb(172, 172, 172);
+    /*gives the button padding*/
+    padding: 1%;
+}
+
+/*Styles to buttons when being hovered over*/
+button:hover{
+    /*Changes the background color of the button*/
+    background-color:grey;
+}
+
+/*When a button is being pressed*/
+button:active{
+    /*Changes the background color of the button*/
+    background-color: rgb(85, 85, 85);
+    /*Changes the button's Text color*/
+    color: ghostwhite;
+}
+
+/*======================ID STYLES=================================*/
+/*-----------GAME WINDOW STYLES-------*/
+/*Styles for the Section that displays the different Game Screens*/
+#GameWindow{
+    /*Change the section's background color*/
+    background-color: darkgray;
+    /*Changes the section's text Color*/
+    color:black;
+    /*gives the section as border*/
+    border: 10px darkslategrey solid;
+}
+
+/*________Shop Specific Styles_________*/
+#CostBox{
+    color: ghostwhite;
+}
+
+/*________Level Up Specific Styles_________*/
+#lvlUpInfo{
+    border: 3px whitesmoke inset;
+}
+
+/*-----------SPECIFIC WINDOW STYLES-------*/
+
+
+/*-----------LOWER WINDOW STYLES-------*/
+
+/*________Battle Specific Styles_________*/
+/*Styles for the Table that holds the player's Actions*/
+#actionMenu{
+    /*Changes the Table's Background color*/
+    background-color:cadetblue;
+    /*Gives the Table a Border*/
+    border:3px teal inset;
+}
+
+/*Styles for the Section that displays the player's Health and Mana pools*/
+#hpmp{
+    /*Change the section's background color*/
+    background-color: khaki;
+    /*gives the section as border*/
+    border: 5px darkgoldenrod inset;
+}
+
+
+
+/*======================CLASS STYLES==================================*/
+
+/*styles for the Different game screens inside the Game Window*/
+.WindowScreen{
+    /*Change the section's background color*/
+    background-color: rgb(19, 19, 19);
+    /*Changes the section's text Color*/
+    color:whitesmoke;
+    /*gives the section as border*/
+    border:5px rgb(56, 56, 56) solid;
+    /*Gives a radius to the border*/
+    border-radius: 10px;
+    /*gives the section padding*/
+    padding:5%;
+    /*Gives the section a top-margin*/
+    margin-top: 10%;
+    /*Gives the section a margin*/
+    margin:5%;
+}
+
+/*Styles of the Table Data inside the Action Table*/
+.actionTxt{
+    /*Change the section's background color*/
+    background-color: lightblue;
+    /*gives the section as border*/
+    border: 1px teal solid;
+    /*Changes the section's text font*/
+    font-family: "Hammersmith One";
+    /*Changes the size of the text in the section*/
+    font-size: x-large;
+}
+
+.actionTxt:hover{
+    /*Changes trhe cursor to a pointer*/
+    cursor: pointer;
+    /*changes the color of the border*/
+    border-color:  rgb(64, 124, 145);
+    /*changes the color of the text in this section*/
+    color:rgb(64, 124, 145);
+}
+
+.actionTxt:active{
+    /*Changes the border color*/
+    border-color: rgb(255, 255, 255);
+    /*Changes the color of the section's text*/
+    color:rgb(255, 255, 255);
+}
+
+/*Styles for the windows on the sides of the Game Window*/
+.sideMenu{
+    /*Change the section's background color*/
+    background-color:rgb(19, 19, 19);
+    /*gives the section as border*/
+    border:3px rgb(49, 49, 49) solid;
+    /*changes the color of the text in this section*/
+    color:ghostwhite;
+    /*Gives padding within this section*/
+    padding: 5px;
+}
+
+/*Style that adds a decorative box around some labels inside the Side Windows*/
+.labelBox{
+    /*adds a border to the section*/
+    border:3px ghostwhite inset;
+}
+
+/*________Shop Specific Styles_________*/
+.StoreList{
+    list-style: none;
+    padding:5%;
+
+}
+.ShopItem{
+    font-size: xx-large;
+    padding:2%;
+}
+
+.ShopItem:hover{
+    border: 2px ghostwhite solid;
+    background-color: rgb(41, 41, 41);
+}
+
+.ShopItem:active{
+    background-color: rgba(255, 255, 240, 0.329);
+}
+
+/*====================KEYFRAMES==================================*/
+
+/*slides the Title Screen away and reveals the game*/
